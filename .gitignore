@@ -1,0 +1,21 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+.override.tf
+.override.tf.json
+terraform.tfplan
+
+# AWS / creds
+**/.aws/*
+.env
+.env.*
+*.pem
+*.key
+
+# OS/editor
+.DS_Store
+.vscode/
